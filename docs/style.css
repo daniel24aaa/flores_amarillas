@@ -6,8 +6,6 @@ body {
   display: flex;
   align-items: center; /* Centra verticalmente los elementos en el cuerpo */
   justify-content: center; /* Centra horizontalmente los elementos en el cuerpo */
-  transform: scale(4.0); /* Cambia el valor para ajustar el nivel de zoom */
-  transform-origin: center;
 }
 .flower {
   height: 200px;
