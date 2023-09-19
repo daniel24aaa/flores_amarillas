@@ -22,15 +22,31 @@ body {
   /* Agrega una animación de pulsación */
   animation: pulsate 2s infinite;
 }
+
+.text-above,
+.text-below {
+    position: absolute;
+    text-align: center;
+    color: #fff; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.text-above {
+    top: -60px; /* Ajusta la posición vertical del texto arriba de la flor */
+}
+
+.text-below {
+    bottom: -60px; /* Ajusta la posición vertical del texto debajo de la flor */
+}
 @keyframes pulsate {
   0% {
-      transform: scale(1);
+      transform: scale(1.9);
   }
   50% {
-      transform: scale(1.1);
+      transform: scale(2.1);
   }
   100% {
-      transform: scale(1);
+      transform: scale(1.9);
   }
 }
   .mid {
