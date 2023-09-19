@@ -1,7 +1,13 @@
 body {
-  background-color: #000; /* Fondo negro para toda la página */
-  margin: 0; /* Elimina el margen predeterminado del cuerpo */
-  padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos en el cuerpo */
+  justify-content: center; /* Centra horizontalmente los elementos en el cuerpo */
+  transform: scale(4.0); /* Cambia el valor para ajustar el nivel de zoom */
+  transform-origin: center;
 }
 .flower {
   height: 200px;
